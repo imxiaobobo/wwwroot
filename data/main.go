@@ -5,16 +5,6 @@
 */
 package main
 
-import (
-	"data/Array"
-	"fmt"
-)
-
 func main() {
-	a := Array.NewArr(3)
-	a.AddLast(5)
-	a.AddLast(4)
-	a.AddLast("wang")
-	a.AddLast(2)
-	fmt.Println(a)
+
 }

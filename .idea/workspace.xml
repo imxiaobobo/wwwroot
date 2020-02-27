@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/ajax.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/bookDao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/userDao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/book.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/page.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/route/route.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Index/index.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Login/login.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Login/login_success.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Manager/book_add.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Manager/book_edit.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Manager/book_manager.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Manager/manager.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Regist/regist.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/Regist/regist_success.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/channel/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/data/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +79,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -132,7 +101,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/view/Manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.0" />
   </component>
