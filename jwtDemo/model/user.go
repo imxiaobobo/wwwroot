@@ -1,7 +1,6 @@
 package model
 
 import (
-	"fmt"
 	"github.com/jinzhu/gorm"
 )
 
@@ -21,7 +20,6 @@ func (u *UserModel) CreateUser() {
 //判断手机号
 func (u *UserModel) IsPhoneExist() bool {
 	u.Db.Where("phone = ?", u.Phone).First(u)
-	fmt.Println(u)
 	if u.ID != 0 {
 		return true
 	}

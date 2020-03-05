@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
-      <change afterPath="$PROJECT_DIR$/jwtDemo/common/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/controller/userController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/router/userRouter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/utils/util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/common/jwt.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wwwroot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wwwroot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyDrive/handle/handle.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/handle/handle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyDrive/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyDrive/meta/fileMeta.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/meta/fileMeta.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Array/arr.go" beforeDir="false" afterPath="$PROJECT_DIR$/data/Array/arr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Array/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/data/Array/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/controller/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/controller/userController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/model/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/router/userRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/router/userRouter.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,7 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build userController.go">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build jwtDemo/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wwwroot" />
       <working_directory value="$PROJECT_DIR$/jwtDemo" />
@@ -194,6 +186,7 @@
       <workItem from="1583289380906" duration="2152000" />
       <workItem from="1583304025583" duration="13452000" />
       <workItem from="1583376831316" duration="3151000" />
+      <workItem from="1583381607529" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1583125902917</created>
@@ -341,26 +334,26 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="730" y="280" key="EnvironmentVariablesDialog/0.23.1680.996@0.23.1680.996" timestamp="1578997718760" />
-    <state width="1636" height="155" key="GridCell.Tab.0.bottom" timestamp="1583381592600">
+    <state width="1636" height="150" key="GridCell.Tab.0.bottom" timestamp="1583401068699">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.bottom/0.23.1680.992@0.23.1680.992" timestamp="1578568871032" />
-    <state width="1636" height="155" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583381592600" />
-    <state width="1636" height="155" key="GridCell.Tab.0.center" timestamp="1583381592599">
+    <state width="1636" height="150" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583401068699" />
+    <state width="1636" height="150" key="GridCell.Tab.0.center" timestamp="1583401068699">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.center/0.23.1680.992@0.23.1680.992" timestamp="1578568871018" />
-    <state width="1636" height="155" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583381592599" />
-    <state width="1636" height="155" key="GridCell.Tab.0.left" timestamp="1583381592598">
+    <state width="1636" height="150" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583401068699" />
+    <state width="1636" height="150" key="GridCell.Tab.0.left" timestamp="1583401068698">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.left/0.23.1680.992@0.23.1680.992" timestamp="1578568870942" />
-    <state width="1636" height="155" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583381592598" />
-    <state width="1636" height="155" key="GridCell.Tab.0.right" timestamp="1583381592599">
+    <state width="1636" height="150" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583401068698" />
+    <state width="1636" height="150" key="GridCell.Tab.0.right" timestamp="1583401068699">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.right/0.23.1680.992@0.23.1680.992" timestamp="1578568871029" />
-    <state width="1636" height="155" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583381592599" />
+    <state width="1636" height="150" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583401068699" />
     <state width="1636" height="332" key="GridCell.Tab.1.bottom" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
