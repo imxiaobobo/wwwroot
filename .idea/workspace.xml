@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="" />
+    <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
+      <change afterPath="$PROJECT_DIR$/jwtDemo/common/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/controller/userController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/router/userRouter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/utils/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wwwroot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wwwroot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/handle/handle.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/handle/handle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/meta/fileMeta.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/meta/fileMeta.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Array/arr.go" beforeDir="false" afterPath="$PROJECT_DIR$/data/Array/arr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Array/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/data/Array/main/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -27,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
@@ -56,7 +78,7 @@
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -74,10 +96,17 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="settings.editor.splitter.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jwtDemo" />
+      <recent name="$PROJECT_DIR$/jwtDemo/main" />
+      <recent name="$PROJECT_DIR$/view/Regist" />
+      <recent name="$PROJECT_DIR$/view/Login" />
+      <recent name="$PROJECT_DIR$/view/Index" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/Stack" />
       <recent name="$PROJECT_DIR$/view/Manager" />
@@ -85,13 +114,49 @@
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/view/Regist" />
-      <recent name="$PROJECT_DIR$/view/Login" />
-      <recent name="$PROJECT_DIR$/view/Index" />
-      <recent name="$PROJECT_DIR$/tests/main" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build userController.go">
+    <configuration name="go build jwtDemo/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="wwwroot" />
+      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/jwtDemo/main/main.go" />
+      <package value="jwtDemo/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="wwwroot" />
+      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/jwtDemo/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="wwwroot" />
+      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/jwtDemo/main/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build userController.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="wwwroot" />
+      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/jwtDemo/controller/userController.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build userController.go" />
+        <item itemvalue="Go Build.go build jwtDemo/main" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -120,7 +185,15 @@
       <workItem from="1583123653183" duration="1734000" />
       <workItem from="1583125404957" duration="138000" />
       <workItem from="1583125556867" duration="116000" />
-      <workItem from="1583125687220" duration="276000" />
+      <workItem from="1583125687220" duration="4894000" />
+      <workItem from="1583138328946" duration="363000" />
+      <workItem from="1583138707728" duration="1084000" />
+      <workItem from="1583142500499" duration="1365000" />
+      <workItem from="1583198925534" duration="91000" />
+      <workItem from="1583199029918" duration="6199000" />
+      <workItem from="1583289380906" duration="2152000" />
+      <workItem from="1583304025583" duration="13452000" />
+      <workItem from="1583376831316" duration="3151000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1583125902917</created>
@@ -153,10 +226,11 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="186" key="#Deployment" timestamp="1577684845416">
-      <screen x="0" y="23" width="1680" height="992" />
+    <state x="565" y="158" key="#Deployment" timestamp="1583313681627">
+      <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#Deployment/0.23.1680.992@0.23.1680.992" timestamp="1577684845416" />
+    <state x="565" y="158" key="#Deployment/0.23.1680.996@0.23.1680.996" timestamp="1583313681627" />
     <state x="440" y="186" key="#GOPATH" timestamp="1583123398241">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -169,10 +243,10 @@
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="440" y="186" key="#Log_Highlighting_(ideolog)/0.23.1680.992@0.23.1680.992" timestamp="1577251611528" />
-    <state x="440" y="186" key="#Notifications" timestamp="1583125963509">
+    <state x="440" y="186" key="#Notifications" timestamp="1583142519155">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="440" y="186" key="#Notifications/0.23.1680.996@0.23.1680.996" timestamp="1583125963509" />
+    <state x="440" y="186" key="#Notifications/0.23.1680.996@0.23.1680.996" timestamp="1583142519155" />
     <state x="440" y="186" key="#Options" timestamp="1577684785530">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -190,11 +264,11 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.996@0.23.1680.996" timestamp="1578643392590" />
-    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583125776942">
+    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583320511996">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.992@0.23.1680.992" timestamp="1578469255282" />
-    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.996@0.23.1680.996" timestamp="1583125776942" />
+    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.996@0.23.1680.996" timestamp="1583320511996" />
     <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578990602181">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -212,14 +286,19 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="537" y="217" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.996@0.23.1680.996" timestamp="1583124680374" />
-    <state x="528" y="251" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578049757702">
-      <screen x="0" y="23" width="1680" height="992" />
+    <state x="528" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583381523650">
+      <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="528" y="251" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.992@0.23.1680.992" timestamp="1578049757702" />
+    <state x="528" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.996@0.23.1680.996" timestamp="1583381523650" />
     <state x="666" y="314" width="475" height="472" key="#com.intellij.tools.ToolEditorDialog" timestamp="1583125125213">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="666" y="314" width="475" height="472" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.996@0.23.1680.996" timestamp="1583125125213" />
+    <state x="536" y="165" key="#go_build_jwtDemo/main" timestamp="1583320765443">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="536" y="165" key="#go_build_jwtDemo/main/0.23.1680.996@0.23.1680.996" timestamp="1583320765443" />
     <state x="553" y="186" key="#go_build_main.go" timestamp="1578648510709">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -237,15 +316,23 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="573" y="188" key="#go_build_project/tests/main/0.23.1680.996@0.23.1680.996" timestamp="1578993509929" />
+    <state x="535" y="163" key="#go_build_userController.go" timestamp="1583378675926">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="535" y="163" key="#go_build_userController.go/0.23.1680.996@0.23.1680.996" timestamp="1583378675926" />
     <state x="570" y="156" key="#go_build_videoModel.go" timestamp="1578645355507">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="570" y="156" key="#go_build_videoModel.go/0.23.1680.996@0.23.1680.996" timestamp="1578645355507" />
-    <state x="436" y="111" key="CommitChangelistDialog2" timestamp="1583125902700">
+    <state x="436" y="111" key="CommitChangelistDialog2" timestamp="1583319329294">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="436" y="111" key="CommitChangelistDialog2/0.23.1680.992@0.23.1680.992" timestamp="1576140896490" />
-    <state x="436" y="111" key="CommitChangelistDialog2/0.23.1680.996@0.23.1680.996" timestamp="1583125902700" />
+    <state x="436" y="111" key="CommitChangelistDialog2/0.23.1680.996@0.23.1680.996" timestamp="1583319329294" />
+    <state x="100" y="123" width="1480" height="796" key="DiffContextDialog" timestamp="1583294051792">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="100" y="123" width="1480" height="796" key="DiffContextDialog/0.23.1680.996@0.23.1680.996" timestamp="1583294051792" />
     <state x="491" y="307" key="EditFileWatcherDialog" timestamp="1576378382134">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -254,56 +341,60 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="730" y="280" key="EnvironmentVariablesDialog/0.23.1680.996@0.23.1680.996" timestamp="1578997718760" />
-    <state width="1636" height="216" key="GridCell.Tab.0.bottom" timestamp="1583124822347">
+    <state width="1636" height="155" key="GridCell.Tab.0.bottom" timestamp="1583381592600">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.bottom/0.23.1680.992@0.23.1680.992" timestamp="1578568871032" />
-    <state width="1636" height="216" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583124822347" />
-    <state width="1636" height="216" key="GridCell.Tab.0.center" timestamp="1583124822344">
+    <state width="1636" height="155" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583381592600" />
+    <state width="1636" height="155" key="GridCell.Tab.0.center" timestamp="1583381592599">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.center/0.23.1680.992@0.23.1680.992" timestamp="1578568871018" />
-    <state width="1636" height="216" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583124822344" />
-    <state width="1636" height="216" key="GridCell.Tab.0.left" timestamp="1583124822342">
+    <state width="1636" height="155" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583381592599" />
+    <state width="1636" height="155" key="GridCell.Tab.0.left" timestamp="1583381592598">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.left/0.23.1680.992@0.23.1680.992" timestamp="1578568870942" />
-    <state width="1636" height="216" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583124822342" />
-    <state width="1636" height="216" key="GridCell.Tab.0.right" timestamp="1583124822345">
+    <state width="1636" height="155" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583381592598" />
+    <state width="1636" height="155" key="GridCell.Tab.0.right" timestamp="1583381592599">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.right/0.23.1680.992@0.23.1680.992" timestamp="1578568871029" />
-    <state width="1636" height="216" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583124822345" />
-    <state width="1632" height="332" key="GridCell.Tab.1.bottom" timestamp="1578996363622">
+    <state width="1636" height="155" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583381592599" />
+    <state width="1636" height="332" key="GridCell.Tab.1.bottom" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state width="1632" height="332" key="GridCell.Tab.1.bottom/0.23.1680.996@0.23.1680.996" timestamp="1578996363622" />
-    <state width="1632" height="332" key="GridCell.Tab.1.center" timestamp="1578996363622">
+    <state width="1636" height="332" key="GridCell.Tab.1.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583378671980" />
+    <state width="1636" height="332" key="GridCell.Tab.1.center" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state width="1632" height="332" key="GridCell.Tab.1.center/0.23.1680.996@0.23.1680.996" timestamp="1578996363622" />
-    <state width="1632" height="332" key="GridCell.Tab.1.left" timestamp="1578996363621">
+    <state width="1636" height="332" key="GridCell.Tab.1.center/0.23.1680.996@0.23.1680.996" timestamp="1583378671980" />
+    <state width="1636" height="332" key="GridCell.Tab.1.left" timestamp="1583378671979">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state width="1632" height="332" key="GridCell.Tab.1.left/0.23.1680.996@0.23.1680.996" timestamp="1578996363621" />
-    <state width="1632" height="332" key="GridCell.Tab.1.right" timestamp="1578996363622">
+    <state width="1636" height="332" key="GridCell.Tab.1.left/0.23.1680.996@0.23.1680.996" timestamp="1583378671979" />
+    <state width="1636" height="332" key="GridCell.Tab.1.right" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state width="1632" height="332" key="GridCell.Tab.1.right/0.23.1680.996@0.23.1680.996" timestamp="1578996363622" />
+    <state width="1636" height="332" key="GridCell.Tab.1.right/0.23.1680.996@0.23.1680.996" timestamp="1583378671980" />
     <state width="233" height="524" key="HiddenNamespacesPopup" timestamp="1578877324955">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="233" height="521" key="HiddenNamespacesPopup/0.23.1680.992@0.23.1680.992" timestamp="1578467082224" />
     <state width="233" height="524" key="HiddenNamespacesPopup/0.23.1680.996@0.23.1680.996" timestamp="1578877324955" />
-    <state x="443" y="116" key="SettingsEditor" timestamp="1583125875283">
+    <state x="443" y="116" key="SettingsEditor" timestamp="1583321958031">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="343" y="87" key="SettingsEditor/0.23.1680.992@0.23.1680.992" timestamp="1578396823587" />
-    <state x="443" y="116" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1583125875283" />
+    <state x="443" y="116" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1583321958031" />
     <state width="500" height="446" key="SwitcherDM" timestamp="1577756193235">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state width="500" height="446" key="SwitcherDM/0.23.1680.992@0.23.1680.992" timestamp="1577756193235" />
+    <state x="696" y="443" key="VCS.ChangelistChooser" timestamp="1583294040918">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="696" y="443" key="VCS.ChangelistChooser/0.23.1680.996@0.23.1680.996" timestamp="1583294040918" />
     <state x="440" y="260" key="Vcs.Push.Dialog.v2" timestamp="1583125913388">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -322,6 +413,10 @@
     </state>
     <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.992@0.23.1680.992" timestamp="1577429643683" />
     <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.996@0.23.1680.996" timestamp="1579327501199" />
+    <state x="381" y="265" width="917" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583217342019">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="381" y="265" width="917" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1680.996@0.23.1680.996" timestamp="1583217342019" />
     <state x="100" y="123" width="1480" height="792" key="dock-window-1" timestamp="1577780446268">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -334,18 +429,22 @@
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="731" y="259" key="ftp.server.browser/0.23.1680.992@0.23.1680.992" timestamp="1577684827404" />
-    <state x="12" y="143" key="new project wizard" timestamp="1583124438484">
+    <state x="12" y="143" key="new project wizard" timestamp="1583127425893">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="12" y="143" key="new project wizard/0.23.1680.996@0.23.1680.996" timestamp="1583124438484" />
+    <state x="12" y="143" key="new project wizard/0.23.1680.996@0.23.1680.996" timestamp="1583127425893" />
     <state x="596" y="396" width="677" height="288" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576919292375">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="596" y="396" width="677" height="288" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1680.992@0.23.1680.992" timestamp="1576919292375" />
-    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1578897281415">
+    <state x="713" y="425" key="publish.login" timestamp="1583139381769">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.996@0.23.1680.996" timestamp="1578897281415" />
+    <state x="713" y="425" key="publish.login/0.23.1680.996@0.23.1680.996" timestamp="1583139381769" />
+    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1583127111941">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.996@0.23.1680.996" timestamp="1583127111941" />
     <state x="570" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579329241577">
       <screen x="0" y="23" width="1680" height="996" />
     </state>

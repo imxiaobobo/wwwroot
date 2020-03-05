@@ -18,9 +18,9 @@ func main() {
 	http.HandleFunc("/file/update", handle.FileUpdateMetaHandle) //修改文件名
 	http.HandleFunc("/file/delete", handle.FileDelHandle)        //根据sha1删除
 
-	http.HandleFunc("/user/register", handle.RegisterHandle) //注册
-	http.HandleFunc("/user/login", handle.SignInHandle)      //登陆
-	//http.HandleFunc("/user/index", handle.HTTPInterceptor(handle.UserIndex)) //主页
+	http.HandleFunc("/user/register", handle.RegisterHandle)                 //注册
+	http.HandleFunc("/user/login", handle.SignInHandle)                      //登陆
+	http.HandleFunc("/user/index", handle.HTTPInterceptor(handle.UserIndex)) //主页
 	//http.HandleFunc("/user/info", handle.HTTPInterceptor(handle.UserInfoHandle)) //用户信息
 
 	err := http.ListenAndServe(":8080", nil)

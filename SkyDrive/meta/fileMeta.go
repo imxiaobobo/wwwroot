@@ -70,7 +70,7 @@ func GetLastFileMetas(count int) []FileMeta {
 func RemoveFileMeta(sha1 string) (err error) {
 	_, ok := fileMetas[sha1]
 	if !ok {
-		return errors.New("无此filehash")
+		return errors.New("无此fileHash")
 	}
 	delete(fileMetas, sha1)
 	return

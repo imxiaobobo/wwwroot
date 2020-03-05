@@ -119,7 +119,6 @@ func (a *Array) Del(index int) {
 	}
 	a.size--
 	a.data[a.size] = nil
-
 	//前面做了删除操作之后,如果该数组的元素个数只有整个数组长度的一办,那么就把数组的长度砍掉一半
 	if a.size == len(a.data)/2 {
 		a.reSize(len(a.data) / 2)

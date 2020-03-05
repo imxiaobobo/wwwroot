@@ -5,6 +5,13 @@
 */
 package main
 
-func main() {
+import (
+	"data/Array"
+	"fmt"
+)
 
+func main() {
+	arr := Array.NewArr(10)
+	arr.AddFirst(1)
+	fmt.Println(arr)
 }

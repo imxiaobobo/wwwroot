@@ -62,10 +62,10 @@ func UploadHandle(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-////UploadSucess 上传成功
-//func UploadSucess(w http.ResponseWriter, r *http.Request) {
-//	io.WriteString(w, "uploadFile Sucess")
-//}
+//UploadSuccess 上传成功
+func UploadSuccess(w http.ResponseWriter, r *http.Request) {
+	io.WriteString(w, "uploadFile Success")
+}
 
 //GetFileMetaHandle 获取Meta
 func GetFileMetaHandle(w http.ResponseWriter, r *http.Request) {
@@ -90,8 +90,8 @@ func GetFileMetaHandle(w http.ResponseWriter, r *http.Request) {
 func FileQueryHandle(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 	limitCnt, _ := strconv.Atoi(r.Form.Get("limit"))
-	fileMeatas := meta.GetLastFileMetas(limitCnt)
-	data, err := json.Marshal(fileMeatas)
+	fileMetas := meta.GetLastFileMetas(limitCnt)
+	data, err := json.Marshal(fileMetas)
 	if err != nil {
 		fmt.Println(err)
 		return
