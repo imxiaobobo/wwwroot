@@ -61,7 +61,7 @@ func Login(ctx *gin.Context) {
 		ctx.JSON(http.StatusUnprocessableEntity, gin.H{"code": 422, "msg": "密码必须为6位"})
 		return
 	}
-	password := User.Password //下面判断手机号的时候已经将User重新赋值了,所以得先保存password,以供下面判断
+	password := User.Password //下面判断手机号的时候会将User重新赋值了,所以得先保存password,以供下面判断
 	//判断手机号是否存在
 	if !User.IsPhoneExist() { //判断手机号是否存在
 		ctx.JSON(http.StatusUnprocessableEntity, gin.H{"code": 422, "msg": "用户不存在"})
@@ -79,4 +79,12 @@ func Login(ctx *gin.Context) {
 		return
 	}
 	ctx.JSON(http.StatusOK, gin.H{"code": 200, "msg": "登录成功", "token": token})
+}
+
+/**
+  个人信息
+*/
+func Info(c *gin.Context) {
+	user, _ := c.Get("user")
+	c.JSON(http.StatusOK, gin.H{"date": user})
 }

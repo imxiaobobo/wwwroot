@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
-      <change afterPath="$PROJECT_DIR$/jwtDemo/common/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/common/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/common/jwt.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwtDemo/controller/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/controller/userController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwtDemo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwtDemo/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwtDemo/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/model/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwtDemo/router/userRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/router/userRouter.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +90,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="settings.editor.splitter.proportion" value="0.0" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,7 +189,8 @@
       <workItem from="1583289380906" duration="2152000" />
       <workItem from="1583304025583" duration="13452000" />
       <workItem from="1583376831316" duration="3151000" />
-      <workItem from="1583381607529" duration="6628000" />
+      <workItem from="1583381607529" duration="9774000" />
+      <workItem from="1583463297487" duration="19710000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1583125902917</created>
@@ -262,11 +266,11 @@
     </state>
     <state x="440" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.992@0.23.1680.992" timestamp="1578469255282" />
     <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.996@0.23.1680.996" timestamp="1583320511996" />
-    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578990602181">
+    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583406512630">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="552" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.992@0.23.1680.992" timestamp="1577875889761" />
-    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.996@0.23.1680.996" timestamp="1578990602181" />
+    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.996@0.23.1680.996" timestamp="1583406512630" />
     <state x="691" y="262" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583125124477">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -334,26 +338,26 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="730" y="280" key="EnvironmentVariablesDialog/0.23.1680.996@0.23.1680.996" timestamp="1578997718760" />
-    <state width="1636" height="150" key="GridCell.Tab.0.bottom" timestamp="1583401068699">
+    <state width="1636" height="193" key="GridCell.Tab.0.bottom" timestamp="1583489162669">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.bottom/0.23.1680.992@0.23.1680.992" timestamp="1578568871032" />
-    <state width="1636" height="150" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583401068699" />
-    <state width="1636" height="150" key="GridCell.Tab.0.center" timestamp="1583401068699">
+    <state width="1636" height="193" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583489162669" />
+    <state width="1636" height="193" key="GridCell.Tab.0.center" timestamp="1583489162668">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.center/0.23.1680.992@0.23.1680.992" timestamp="1578568871018" />
-    <state width="1636" height="150" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583401068699" />
-    <state width="1636" height="150" key="GridCell.Tab.0.left" timestamp="1583401068698">
+    <state width="1636" height="193" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583489162668" />
+    <state width="1636" height="193" key="GridCell.Tab.0.left" timestamp="1583489162667">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.left/0.23.1680.992@0.23.1680.992" timestamp="1578568870942" />
-    <state width="1636" height="150" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583401068698" />
-    <state width="1636" height="150" key="GridCell.Tab.0.right" timestamp="1583401068699">
+    <state width="1636" height="193" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583489162667" />
+    <state width="1636" height="193" key="GridCell.Tab.0.right" timestamp="1583489162668">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.right/0.23.1680.992@0.23.1680.992" timestamp="1578568871029" />
-    <state width="1636" height="150" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583401068699" />
+    <state width="1636" height="193" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583489162668" />
     <state width="1636" height="332" key="GridCell.Tab.1.bottom" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -401,11 +405,11 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.996@0.23.1680.996" timestamp="1583125406661" />
-    <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579327501199">
+    <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583479155591">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.992@0.23.1680.992" timestamp="1577429643683" />
-    <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.996@0.23.1680.996" timestamp="1579327501199" />
+    <state x="454" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.996@0.23.1680.996" timestamp="1583479155591" />
     <state x="381" y="265" width="917" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583217342019">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -438,9 +442,9 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="505" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.996@0.23.1680.996" timestamp="1583127111941" />
-    <state x="570" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579329241577">
+    <state x="570" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583477671173">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="570" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1680.996@0.23.1680.996" timestamp="1579329241577" />
+    <state x="570" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1680.996@0.23.1680.996" timestamp="1583477671173" />
   </component>
 </project>
