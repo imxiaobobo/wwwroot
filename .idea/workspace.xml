@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwtDemo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/common/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/common/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -186,7 +187,10 @@
       <workItem from="1583376831316" duration="3151000" />
       <workItem from="1583381607529" duration="9774000" />
       <workItem from="1583463297487" duration="19803000" />
-      <workItem from="1583551902033" duration="207000" />
+      <workItem from="1583551902033" duration="1198000" />
+      <workItem from="1583553118782" duration="414000" />
+      <workItem from="1583553593467" duration="155000" />
+      <workItem from="1583553820579" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1583125902917</created>
@@ -248,6 +252,10 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#Plugins/0.23.1680.996@0.23.1680.996" timestamp="1578646755755" />
+    <state x="440" y="186" key="#Project_Structure" timestamp="1583559781904">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="440" y="186" key="#Project_Structure/0.23.1680.996@0.23.1680.996" timestamp="1583559781904" />
     <state x="440" y="187" key="#SQL_Dialects" timestamp="1578644417179">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -375,11 +383,11 @@
     </state>
     <state width="233" height="521" key="HiddenNamespacesPopup/0.23.1680.992@0.23.1680.992" timestamp="1578467082224" />
     <state width="233" height="524" key="HiddenNamespacesPopup/0.23.1680.996@0.23.1680.996" timestamp="1578877324955" />
-    <state x="443" y="116" key="SettingsEditor" timestamp="1583321958031">
+    <state x="331" y="72" key="SettingsEditor" timestamp="1583553978181">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="343" y="87" key="SettingsEditor/0.23.1680.992@0.23.1680.992" timestamp="1578396823587" />
-    <state x="443" y="116" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1583321958031" />
+    <state x="331" y="72" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1583553978181" />
     <state width="500" height="446" key="SwitcherDM" timestamp="1577756193235">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -422,10 +430,10 @@
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="731" y="259" key="ftp.server.browser/0.23.1680.992@0.23.1680.992" timestamp="1577684827404" />
-    <state x="12" y="143" key="new project wizard" timestamp="1583127425893">
+    <state x="12" y="143" key="new project wizard" timestamp="1583559884922">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="12" y="143" key="new project wizard/0.23.1680.996@0.23.1680.996" timestamp="1583127425893" />
+    <state x="12" y="143" key="new project wizard/0.23.1680.996@0.23.1680.996" timestamp="1583559884922" />
     <state x="596" y="396" width="677" height="288" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576919292375">
       <screen x="0" y="23" width="1680" height="992" />
     </state>

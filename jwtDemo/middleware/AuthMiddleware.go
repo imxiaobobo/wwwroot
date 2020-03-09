@@ -19,7 +19,6 @@ func Auth() gin.HandlerFunc {
 			return
 		}
 		tokenStr = tokenStr[7:] //去掉头部的Bearer
-		//fmt.Println(tokenStr)
 		token, claims, err := common.ParseToken(tokenStr)
 		if err != nil || !token.Valid {
 			c.JSON(http.StatusUnauthorized, gin.H{"code": 401, "msg": "token验证不通过"})

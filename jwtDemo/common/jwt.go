@@ -1,11 +1,10 @@
 package common
 
 import (
+	"github.com/dgrijalva/jwt-go"
 	"jwtDemo/model"
 	"log"
 	"time"
-
-	"github.com/dgrijalva/jwt-go"
 )
 
 var jwtKey = []byte("a_secret_crect") //创建jwt秘钥
