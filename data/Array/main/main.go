@@ -12,6 +12,6 @@ import (
 
 func main() {
 	arr := Array.NewArr(10)
-	arr.AddFirst(1)
+	arr.AddLast(10)
 	fmt.Println(arr)
 }

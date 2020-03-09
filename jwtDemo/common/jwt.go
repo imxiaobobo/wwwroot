@@ -1,16 +1,18 @@
 package common
 
 import (
-	"github.com/dgrijalva/jwt-go"
 	"jwtDemo/model"
 	"log"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
 )
 
 var jwtKey = []byte("a_secret_crect") //创建jwt秘钥
 
+// Claims jwt结构体
 type Claims struct {
-	UserId             uint
+	UserID             uint
 	jwt.StandardClaims //继承
 }
 
@@ -19,7 +21,7 @@ type Claims struct {
 */
 func ReleaseToken(user model.UserModel) (tokenStr string, err error) {
 	claims := &Claims{
-		UserId: user.ID,
+		UserID: user.ID,
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(7 * 24 * time.Hour).Unix(), //设置token过期时间7天
 			IssuedAt:  time.Now().Unix(),                         //token发放的时间

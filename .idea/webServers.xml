@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="03b30e94-4119-4e0c-920f-a941eb5a2d6a" name="修改" url="http://101.132.180.139">
+        <fileTransfer host="101.132.180.139" port="5656">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="5656" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

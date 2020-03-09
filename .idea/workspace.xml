@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
+      <change afterPath="$PROJECT_DIR$/Project/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/day01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Array/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/data/Array/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/data/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwtDemo/common/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/common/jwt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtDemo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/RabbitMq/rabbitmq.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/shop/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainPop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainPush.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +79,7 @@
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -106,7 +119,7 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build jwtDemo/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wwwroot" />
       <working_directory value="$PROJECT_DIR$/jwtDemo" />
@@ -121,6 +134,14 @@
       <working_directory value="$PROJECT_DIR$/jwtDemo" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/jwtDemo/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="wwwroot" />
+      <working_directory value="$PROJECT_DIR$/data" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/data/Array/main/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -142,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build userController.go" />
         <item itemvalue="Go Build.go build jwtDemo/main" />
@@ -191,6 +213,7 @@
       <workItem from="1583553118782" duration="414000" />
       <workItem from="1583553593467" duration="155000" />
       <workItem from="1583553820579" duration="1685000" />
+      <workItem from="1583733491166" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1583125902917</created>
@@ -223,11 +246,11 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="565" y="158" key="#Deployment" timestamp="1583313681627">
+    <state x="565" y="158" key="#Deployment" timestamp="1583742072063">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#Deployment/0.23.1680.992@0.23.1680.992" timestamp="1577684845416" />
-    <state x="565" y="158" key="#Deployment/0.23.1680.996@0.23.1680.996" timestamp="1583313681627" />
+    <state x="565" y="158" key="#Deployment/0.23.1680.996@0.23.1680.996" timestamp="1583742072063" />
     <state x="440" y="186" key="#GOPATH" timestamp="1583123398241">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -342,26 +365,26 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="730" y="280" key="EnvironmentVariablesDialog/0.23.1680.996@0.23.1680.996" timestamp="1578997718760" />
-    <state width="1636" height="193" key="GridCell.Tab.0.bottom" timestamp="1583489396529">
+    <state width="1636" height="192" key="GridCell.Tab.0.bottom" timestamp="1583733587044">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.bottom/0.23.1680.992@0.23.1680.992" timestamp="1578568871032" />
-    <state width="1636" height="193" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583489396529" />
-    <state width="1636" height="193" key="GridCell.Tab.0.center" timestamp="1583489396528">
+    <state width="1636" height="192" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583733587044" />
+    <state width="1636" height="192" key="GridCell.Tab.0.center" timestamp="1583733587043">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.center/0.23.1680.992@0.23.1680.992" timestamp="1578568871018" />
-    <state width="1636" height="193" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583489396528" />
-    <state width="1636" height="193" key="GridCell.Tab.0.left" timestamp="1583489396528">
+    <state width="1636" height="192" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583733587043" />
+    <state width="1636" height="192" key="GridCell.Tab.0.left" timestamp="1583733587042">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.left/0.23.1680.992@0.23.1680.992" timestamp="1578568870942" />
-    <state width="1636" height="193" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583489396528" />
-    <state width="1636" height="193" key="GridCell.Tab.0.right" timestamp="1583489396529">
+    <state width="1636" height="192" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583733587042" />
+    <state width="1636" height="192" key="GridCell.Tab.0.right" timestamp="1583733587043">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.right/0.23.1680.992@0.23.1680.992" timestamp="1578568871029" />
-    <state width="1636" height="193" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583489396529" />
+    <state width="1636" height="192" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583733587043" />
     <state width="1636" height="332" key="GridCell.Tab.1.bottom" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -430,10 +453,10 @@
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="731" y="259" key="ftp.server.browser/0.23.1680.992@0.23.1680.992" timestamp="1577684827404" />
-    <state x="12" y="143" key="new project wizard" timestamp="1583559884922">
+    <state x="12" y="143" key="new project wizard" timestamp="1583733898387">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="12" y="143" key="new project wizard/0.23.1680.996@0.23.1680.996" timestamp="1583559884922" />
+    <state x="12" y="143" key="new project wizard/0.23.1680.996@0.23.1680.996" timestamp="1583733898387" />
     <state x="596" y="396" width="677" height="288" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576919292375">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
