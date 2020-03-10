@@ -25,7 +25,7 @@ func Auth() gin.HandlerFunc {
 			c.Abort()
 			return
 		}
-		userId := claims.UserId
+		userId := claims.UserID
 		Db := common.NewDB()
 		var user model.UserModel
 		Db.First(&user, userId)
