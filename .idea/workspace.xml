@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
-      <change afterPath="$PROJECT_DIR$/Project/day01/time_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtDemo/jwtDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/rabbit/rabbitmq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/maincon.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/maincon2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/mainpush.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/rabbit/publish.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/rabbit/simple.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/day01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Project/day01/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwtDemo/common/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/common/jwt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwtDemo/middleware/AuthMiddleware.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/shop/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/rabbit/rabbitmq.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/rabbit/rabbitmq.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.0" />
   </component>
   <component name="ReadonlyStatusHandler">
@@ -206,7 +208,11 @@
       <workItem from="1583553820579" duration="1685000" />
       <workItem from="1583733491166" duration="7300000" />
       <workItem from="1583801206890" duration="598000" />
-      <workItem from="1583840853101" duration="416000" />
+      <workItem from="1583840853101" duration="941000" />
+      <workItem from="1583887279896" duration="588000" />
+      <workItem from="1583920453551" duration="1006000" />
+      <workItem from="1583921476999" duration="1106000" />
+      <workItem from="1583973675103" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1583125902917</created>
@@ -277,10 +283,10 @@
     </state>
     <state x="440" y="186" key="#SQL_Dialects/0.23.1680.992@0.23.1680.992" timestamp="1578477450041" />
     <state x="440" y="187" key="#SQL_Dialects/0.23.1680.996@0.23.1680.996" timestamp="1578644417179" />
-    <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578643392590">
+    <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583921755452">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.996@0.23.1680.996" timestamp="1578643392590" />
+    <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.996@0.23.1680.996" timestamp="1583921755452" />
     <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583320511996">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -399,11 +405,11 @@
     </state>
     <state width="233" height="521" key="HiddenNamespacesPopup/0.23.1680.992@0.23.1680.992" timestamp="1578467082224" />
     <state width="233" height="524" key="HiddenNamespacesPopup/0.23.1680.996@0.23.1680.996" timestamp="1578877324955" />
-    <state x="331" y="72" key="SettingsEditor" timestamp="1583553978181">
+    <state x="331" y="72" key="SettingsEditor" timestamp="1583921818127">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="343" y="87" key="SettingsEditor/0.23.1680.992@0.23.1680.992" timestamp="1578396823587" />
-    <state x="331" y="72" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1583553978181" />
+    <state x="331" y="72" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1583921818127" />
     <state width="500" height="446" key="SwitcherDM" timestamp="1577756193235">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -446,6 +452,10 @@
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="731" y="259" key="ftp.server.browser/0.23.1680.992@0.23.1680.992" timestamp="1577684827404" />
+    <state width="818" height="402" key="javadoc.popup" timestamp="1583921233645">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state width="818" height="402" key="javadoc.popup/0.23.1680.996@0.23.1680.996" timestamp="1583921233645" />
     <state x="12" y="143" key="new project wizard" timestamp="1583733898387">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
