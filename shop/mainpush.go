@@ -8,10 +8,10 @@ import (
 )
 
 func main() {
-	b := rabbit.New("test", 1)
-	for i := 0; i < 100; i++ {
-		b.PublishSimple("hello world" + strconv.Itoa(i))
-		time.Sleep(time.Second * 1)
+	r := rabbit.NewPub("test")
+	for i := 0; i <= 100; i++ {
+		r.Publish("hello world" + strconv.Itoa(i))
 		fmt.Println(i)
+		time.Sleep(time.Second * 1)
 	}
 }
