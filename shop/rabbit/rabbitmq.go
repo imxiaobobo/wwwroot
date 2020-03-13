@@ -2,9 +2,8 @@ package rabbit
 
 import (
 	"fmt"
-	"log"
-
 	"github.com/streadway/amqp"
+	"log"
 )
 
 /**

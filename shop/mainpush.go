@@ -1,17 +1,16 @@
 package main
 
 import (
-	"fmt"
 	"shop/rabbit"
 	"strconv"
-	"time"
 )
 
 func main() {
-	r := rabbit.NewPub("test")
+	r1 := rabbit.NewRouting("test", "imooc_one")
+	r2 := rabbit.NewRouting("test", "imooc_two")
+
 	for i := 0; i <= 100; i++ {
-		r.Publish("hello world" + strconv.Itoa(i))
-		fmt.Println(i)
-		time.Sleep(time.Second * 1)
+		r1.Publish("one" + strconv.Itoa(i))
+		r2.Publish("two" + strconv.Itoa(i))
 	}
 }

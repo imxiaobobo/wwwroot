@@ -19,9 +19,9 @@ func NewPub(Exchange string) *Publish {
 	return p
 }
 
+//生产者
 func (p *Publish) Publish(msg string) {
 	/**
-	  创建交换机
 	  name 交换机名
 	  kind 确定交换机名,订阅模式下为fanout
 	  durable 是否持久化
@@ -40,6 +40,7 @@ func (p *Publish) Publish(msg string) {
 	})
 }
 
+//消费者
 func (p *Publish) Consume() {
 	//创建交换机
 	err := p.channel.ExchangeDeclare(p.exchange, "fanout", true, false, false, false, nil)
