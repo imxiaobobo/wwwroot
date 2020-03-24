@@ -12,12 +12,13 @@ import (
 	"log"
 )
 
+//User 用户
 type User struct {
 	UserName, Email, Phone, SignupAt, LastActiveAt string
 	Status                                         int
 }
 
-//通过用户名和密码完成入库
+//UserSignup 通过用户名和密码完成入库
 func UserSignup(username, password string) bool {
 	stmt, err := mysql.DBConn().Prepare("insert ignore into tbl_user(user_name,user_pwd)value (?,?)")
 	if err != nil {
@@ -36,7 +37,7 @@ func UserSignup(username, password string) bool {
 	return false
 }
 
-//判断密码是否一致
+//UserSignIn 判断密码是否一致
 func UserSignIn(username, password string) bool {
 	stmt, err := mysql.DBConn().Prepare("select * from tbl_user where user_name=? limit 1")
 	if err != nil {
@@ -59,7 +60,7 @@ func UserSignIn(username, password string) bool {
 	return false
 }
 
-// row.scan 返回map
+//ParseRows 查询字段返回map
 func ParseRows(rows *sql.Rows) []map[string]interface{} {
 	// 获取记录列(名)
 	columns, _ := rows.Columns()
@@ -76,8 +77,7 @@ func ParseRows(rows *sql.Rows) []map[string]interface{} {
 	records := make([]map[string]interface{}, 0)
 	// 迭代行记录
 	for rows.Next() {
-		//每Scan一次，将一行数据保存到record字典
-		err := rows.Scan(scanArgs...)
+		err := rows.Scan(scanArgs...) //每Scan一次，将一行数据保存到record字典
 		checkErr(err)
 		for i, col := range scanArgs {
 			if col != nil {
@@ -89,7 +89,7 @@ func ParseRows(rows *sql.Rows) []map[string]interface{} {
 	return records
 }
 
-//错误处理
+//checkErr 错误处理
 func checkErr(err error) {
 	if err != nil {
 		log.Fatal(err)
@@ -97,7 +97,7 @@ func checkErr(err error) {
 	}
 }
 
-//token入库
+//UpdateToken token入库
 func UpdateToken(username, token string) bool {
 	stmt, err := mysql.DBConn().Prepare("replace into tbl_user_token(user_name,user_token) values(?,?)")
 	if err != nil {
@@ -113,7 +113,7 @@ func UpdateToken(username, token string) bool {
 	return true
 }
 
-//获取用户信息
+//GetUserInfo 获取用户信息
 func GetUserInfo(username string) (u *User, err error) {
 	u = &User{}
 	stmt, err := mysql.DBConn().Prepare("select user_name,signup_at from tbl_user where user_name=? limit 1")

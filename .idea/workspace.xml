@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efd5b2e-f65d-43be-91bb-d16d15ff95df" name="Default Changelist" comment="3.2">
-      <change afterPath="$PROJECT_DIR$/shop/rabbit/routing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/day02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/day03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/rabbit/topic.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/maincon.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/maincon.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/maincon2.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/maincon2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainpush.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainpush.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/rabbit/publish.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/rabbit/publish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/db/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/db/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/db/mysql/conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/db/mysql/conn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/db/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/db/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/db/userFile.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/db/userFile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/handle/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/handle/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/handle/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/handle/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/meta/fileMeta.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/meta/fileMeta.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/meta/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/meta/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyDrive/utils/resp.go" beforeDir="false" afterPath="$PROJECT_DIR$/SkyDrive/utils/resp.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/rabbit/rabbitmq.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/rabbit/rabbitmq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/rabbit/routing.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/rabbit/routing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/rabbit/simple.go" beforeDir="false" afterPath="$PROJECT_DIR$/shop/rabbit/simple.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,25 +31,11 @@
       <executable />
     </execution>
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -62,8 +59,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -90,7 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.0" />
   </component>
   <component name="ReadonlyStatusHandler">
@@ -112,54 +110,36 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build jwtDemo/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build SkyDrive">
+    <configuration name="go build SkyDrive" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wwwroot" />
-      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <working_directory value="$PROJECT_DIR$/SkyDrive" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/jwtDemo/main/main.go" />
-      <package value="jwtDemo/main" />
+      <filePath value="$PROJECT_DIR$/SkyDrive/main.go" />
+      <package value="SkyDrive" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="wwwroot" />
-      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/Project" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/jwtDemo/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="wwwroot" />
-      <working_directory value="$PROJECT_DIR$/data" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/data/Array/main/main.go" />
+      <filePath value="$PROJECT_DIR$/Project/day03/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="wwwroot" />
-      <working_directory value="$PROJECT_DIR$/jwtDemo" />
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/Project" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/jwtDemo/main/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build userController.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="wwwroot" />
-      <working_directory value="$PROJECT_DIR$/jwtDemo" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/jwtDemo/controller/userController.go" />
+      <filePath value="$PROJECT_DIR$/Project/day02/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build SkyDrive" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build userController.go" />
-        <item itemvalue="Go Build.go build jwtDemo/main" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -213,7 +193,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.tpl" />
@@ -230,11 +210,6 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-    <environment>
-      <map>
-        <entry key="GOPROXY" value="https://goproxy.io" />
-      </map>
-    </environment>
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
@@ -255,41 +230,41 @@
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="440" y="186" key="#Log_Highlighting_(ideolog)/0.23.1680.992@0.23.1680.992" timestamp="1577251611528" />
-    <state x="440" y="186" key="#Notifications" timestamp="1583142519155">
+    <state x="440" y="186" key="#Notifications" timestamp="1584347087111">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="440" y="186" key="#Notifications/0.23.1680.996@0.23.1680.996" timestamp="1583142519155" />
+    <state x="440" y="186" key="#Notifications/0.23.1680.996@0.23.1680.996" timestamp="1584347087111" />
     <state x="440" y="186" key="#Options" timestamp="1577684785530">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="440" y="186" key="#Options/0.23.1680.992@0.23.1680.992" timestamp="1577684785530" />
-    <state x="440" y="186" key="#Plugins" timestamp="1578646755755">
+    <state x="440" y="186" key="#Plugins" timestamp="1584188162045">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="440" y="186" key="#Plugins/0.23.1680.996@0.23.1680.996" timestamp="1578646755755" />
+    <state x="440" y="186" key="#Plugins/0.23.1680.996@0.23.1680.996" timestamp="1584188162045" />
     <state x="440" y="186" key="#Project_Structure" timestamp="1583559781904">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#Project_Structure/0.23.1680.996@0.23.1680.996" timestamp="1583559781904" />
-    <state x="440" y="187" key="#SQL_Dialects" timestamp="1578644417179">
+    <state x="440" y="187" key="#SQL_Dialects" timestamp="1585013909297">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#SQL_Dialects/0.23.1680.992@0.23.1680.992" timestamp="1578477450041" />
-    <state x="440" y="187" key="#SQL_Dialects/0.23.1680.996@0.23.1680.996" timestamp="1578644417179" />
+    <state x="440" y="187" key="#SQL_Dialects/0.23.1680.996@0.23.1680.996" timestamp="1585013909297" />
     <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583921755452">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="562" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.996@0.23.1680.996" timestamp="1583921755452" />
-    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583320511996">
+    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584097693828">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="440" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.992@0.23.1680.992" timestamp="1578469255282" />
-    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.996@0.23.1680.996" timestamp="1583320511996" />
-    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583406512630">
+    <state x="609" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.996@0.23.1680.996" timestamp="1584097693828" />
+    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584187881146">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="552" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.992@0.23.1680.992" timestamp="1577875889761" />
-    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.996@0.23.1680.996" timestamp="1583406512630" />
+    <state x="552" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.996@0.23.1680.996" timestamp="1584187881146" />
     <state x="691" y="262" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583125124477">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -318,12 +293,11 @@
     <state x="553" y="186" key="#go_build_main.go" timestamp="1578648510709">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="553" y="185" key="#go_build_main.go/0.23.1680.992@0.23.1680.992" timestamp="1576141445064" />
     <state x="553" y="186" key="#go_build_main.go/0.23.1680.996@0.23.1680.996" timestamp="1578648510709" />
-    <state x="575" y="169" key="#go_build_main.go_(1)" timestamp="1578896626981">
+    <state x="575" y="169" key="#go_build_main.go_(1)" timestamp="1585026266918">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="575" y="169" key="#go_build_main.go_(1)/0.23.1680.996@0.23.1680.996" timestamp="1578896626981" />
+    <state x="575" y="169" key="#go_build_main.go_(1)/0.23.1680.996@0.23.1680.996" timestamp="1585026266917" />
     <state x="553" y="161" key="#go_build_project/homework" timestamp="1578293250910">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -332,6 +306,10 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="573" y="188" key="#go_build_project/tests/main/0.23.1680.996@0.23.1680.996" timestamp="1578993509929" />
+    <state x="563" y="162" key="#go_build_publish.go" timestamp="1584090984648">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="563" y="162" key="#go_build_publish.go/0.23.1680.996@0.23.1680.996" timestamp="1584090984648" />
     <state x="535" y="163" key="#go_build_userController.go" timestamp="1583378675926">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -343,7 +321,6 @@
     <state x="436" y="111" key="CommitChangelistDialog2" timestamp="1583319329294">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="436" y="111" key="CommitChangelistDialog2/0.23.1680.992@0.23.1680.992" timestamp="1576140896490" />
     <state x="436" y="111" key="CommitChangelistDialog2/0.23.1680.996@0.23.1680.996" timestamp="1583319329294" />
     <state x="100" y="123" width="1480" height="796" key="DiffContextDialog" timestamp="1583294051792">
       <screen x="0" y="23" width="1680" height="996" />
@@ -357,26 +334,26 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="730" y="280" key="EnvironmentVariablesDialog/0.23.1680.996@0.23.1680.996" timestamp="1578997718760" />
-    <state width="1636" height="192" key="GridCell.Tab.0.bottom" timestamp="1583755198814">
+    <state width="1636" height="164" key="GridCell.Tab.0.bottom" timestamp="1585042146499">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.bottom/0.23.1680.992@0.23.1680.992" timestamp="1578568871032" />
-    <state width="1636" height="192" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1583755198814" />
-    <state width="1636" height="192" key="GridCell.Tab.0.center" timestamp="1583755198813">
+    <state width="1636" height="164" key="GridCell.Tab.0.bottom/0.23.1680.996@0.23.1680.996" timestamp="1585042146499" />
+    <state width="1636" height="164" key="GridCell.Tab.0.center" timestamp="1585042146498">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.center/0.23.1680.992@0.23.1680.992" timestamp="1578568871018" />
-    <state width="1636" height="192" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1583755198813" />
-    <state width="1636" height="192" key="GridCell.Tab.0.left" timestamp="1583755198812">
+    <state width="1636" height="164" key="GridCell.Tab.0.center/0.23.1680.996@0.23.1680.996" timestamp="1585042146498" />
+    <state width="1636" height="164" key="GridCell.Tab.0.left" timestamp="1585042146498">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.left/0.23.1680.992@0.23.1680.992" timestamp="1578568870942" />
-    <state width="1636" height="192" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1583755198812" />
-    <state width="1636" height="192" key="GridCell.Tab.0.right" timestamp="1583755198813">
+    <state width="1636" height="164" key="GridCell.Tab.0.left/0.23.1680.996@0.23.1680.996" timestamp="1585042146498" />
+    <state width="1636" height="164" key="GridCell.Tab.0.right" timestamp="1585042146498">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1632" height="226" key="GridCell.Tab.0.right/0.23.1680.992@0.23.1680.992" timestamp="1578568871029" />
-    <state width="1636" height="192" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1583755198813" />
+    <state width="1636" height="164" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1585042146498" />
     <state width="1636" height="332" key="GridCell.Tab.1.bottom" timestamp="1583378671980">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
@@ -398,11 +375,15 @@
     </state>
     <state width="233" height="521" key="HiddenNamespacesPopup/0.23.1680.992@0.23.1680.992" timestamp="1578467082224" />
     <state width="233" height="524" key="HiddenNamespacesPopup/0.23.1680.996@0.23.1680.996" timestamp="1578877324955" />
-    <state x="331" y="72" key="SettingsEditor" timestamp="1584059905332">
+    <state x="428" y="271" key="IDE.errors.dialog" timestamp="1584847161830">
+      <screen x="0" y="23" width="1680" height="996" />
+    </state>
+    <state x="428" y="271" key="IDE.errors.dialog/0.23.1680.996@0.23.1680.996" timestamp="1584847161830" />
+    <state x="331" y="72" width="952" height="724" key="SettingsEditor" timestamp="1585015618892">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="343" y="87" key="SettingsEditor/0.23.1680.992@0.23.1680.992" timestamp="1578396823587" />
-    <state x="331" y="72" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1584059905332" />
+    <state x="331" y="72" width="952" height="724" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1585015618892" />
     <state width="500" height="446" key="SwitcherDM" timestamp="1577756193235">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
@@ -414,7 +395,6 @@
     <state x="440" y="260" key="Vcs.Push.Dialog.v2" timestamp="1583125913388">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="440" y="259" key="Vcs.Push.Dialog.v2/0.23.1680.992@0.23.1680.992" timestamp="1576140907200" />
     <state x="440" y="260" key="Vcs.Push.Dialog.v2/0.23.1680.996@0.23.1680.996" timestamp="1583125913388" />
     <state x="576" y="175" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1576656523797">
       <screen x="0" y="23" width="1680" height="992" />
@@ -461,10 +441,10 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state x="713" y="425" key="publish.login/0.23.1680.996@0.23.1680.996" timestamp="1583139381769" />
-    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1583840916584">
+    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1585018636401">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.996@0.23.1680.996" timestamp="1583840916584" />
+    <state x="505" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.996@0.23.1680.996" timestamp="1585018636401" />
     <state x="570" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583477671173">
       <screen x="0" y="23" width="1680" height="996" />
     </state>

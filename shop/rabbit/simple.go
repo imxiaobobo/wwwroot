@@ -2,8 +2,9 @@ package rabbit
 
 import (
 	"fmt"
-	"github.com/streadway/amqp"
 	"log"
+
+	"github.com/streadway/amqp"
 )
 
 type Simple struct {

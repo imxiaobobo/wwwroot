@@ -11,6 +11,7 @@ import (
 	"fmt"
 )
 
+//TableFile 文件结构
 type TableFile struct {
 	FileHash string
 	FileName sql.NullString
@@ -18,7 +19,7 @@ type TableFile struct {
 	FileAddr sql.NullString
 }
 
-//文件上传之后,将文件meta信息存入数据库
+//OnFileUploadFinished 文件上传之后,将文件meta信息存入数据库
 func OnFileUploadFinished(filehash, filename, fileaddr string, filesize int64) bool {
 	stmt, err := mysql.DBConn().Prepare("insert ignore into tbl_file(file_sha1,file_name,file_size,file_addr,status) value (?,?,?,?,1)")
 	if err != nil {
@@ -41,7 +42,7 @@ func OnFileUploadFinished(filehash, filename, fileaddr string, filesize int64) b
 	return false
 }
 
-//根据filehash查询meta
+//GetFileMeta 根据filehash查询meta
 func GetFileMeta(filehash string) (*TableFile, error) {
 	stmt, err := mysql.DBConn().Prepare("select file_sha1,file_addr,file_name,file_size from tbl_file where file_sha1=? and status=1 limit 1")
 	if err != nil {

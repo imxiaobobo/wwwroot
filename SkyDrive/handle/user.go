@@ -15,11 +15,12 @@ import (
 	"net/http"
 )
 
+//pwd_salt 盐
 const (
-	pwd_salt = "*#890" //盐
+	pwd_salt = "*#890"
 )
 
-//注册
+//RegisterHandle 注册
 func RegisterHandle(w http.ResponseWriter, r *http.Request) {
 	if r.Method == http.MethodGet {
 		t := template.Must(template.ParseFiles("static/view/signup.tpl"))
@@ -47,7 +48,7 @@ func RegisterHandle(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//登陆
+//SignInHandle 登陆
 func SignInHandle(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
 		t := template.Must(template.ParseFiles("./static/view/login.tpl"))
@@ -97,7 +98,7 @@ func SignInHandle(w http.ResponseWriter, r *http.Request) {
 //	w.Write(respByte)
 //}
 
-//首页
+//UserIndex 首页
 func UserIndex(w http.ResponseWriter, r *http.Request) {
 	//解析请求参数
 	r.ParseForm()

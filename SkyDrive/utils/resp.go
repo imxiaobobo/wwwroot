@@ -11,12 +11,14 @@ import (
 	"log"
 )
 
+//ResMsg 消息结构体
 type ResMsg struct {
 	Code int         `json:"code"`
 	Msg  string      `json:"msg"`
 	Data interface{} `json:"data"`
 }
 
+//NewResMsg 创建消息结构体
 func NewResMsg(code int, msg string, data interface{}) *ResMsg {
 	return &ResMsg{
 		Code: code,
@@ -25,6 +27,7 @@ func NewResMsg(code int, msg string, data interface{}) *ResMsg {
 	}
 }
 
+//JsonBytes 对象
 func (res *ResMsg) JsonBytes() ([]byte, error) {
 	r, err := json.Marshal(res)
 	if err != nil {

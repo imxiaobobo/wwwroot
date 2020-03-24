@@ -29,6 +29,7 @@ func UploadFileMeta(fmeta FileMeta) {
 	fileMetas[fmeta.FileSha1] = fmeta
 }
 
+//UpdateFileMetaDB 更新FileMeta
 func UpdateFileMetaDB(fmeta FileMeta) bool {
 	return db.OnFileUploadFinished(fmeta.FileSha1, fmeta.FileName, fmeta.Location, fmeta.FileSize)
 }
@@ -38,6 +39,7 @@ func GetFileMeta(fileSha1 string) FileMeta {
 	return fileMetas[fileSha1]
 }
 
+//GetFileMetaDB 根据hash获取FileMeta
 func GetFileMetaDB(filehash string) (*FileMeta, error) {
 	tfile, err := db.GetFileMeta(filehash)
 	if err != nil {
@@ -67,6 +69,7 @@ func GetLastFileMetas(count int) []FileMeta {
 	return fMetaArray[:count]
 }
 
+//RemoveFileMeta 根据hash删除
 func RemoveFileMeta(sha1 string) (err error) {
 	_, ok := fileMetas[sha1]
 	if !ok {

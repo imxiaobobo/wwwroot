@@ -11,6 +11,7 @@ import (
 	"net/http"
 )
 
+//HTTPInterceptor 中间件
 func HTTPInterceptor(h http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		r.ParseForm()

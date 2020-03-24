@@ -52,7 +52,6 @@ func (r *rabbit) Close() {
 	r.conn.Close()    //在关闭连接
 }
 
-//错误处理
 func Err(err error, msg string) {
 	if err != nil {
 		log.Fatalln(err, msg)

@@ -19,7 +19,7 @@ type Routing struct {
 }
 
 //创建路由模式实例
-func NewRouting(Exchange, bangdingkey string) *Routing {
+func NewRouting(Exchange string, bangdingkey string) *Routing {
 	r := newRabbitMq("", Exchange, bangdingkey) //传入的是交换机和bangdingkey
 	s := &Routing{*r}
 	return s
